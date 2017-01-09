@@ -7,15 +7,17 @@
 /* this is for the column drops that appear in the toolPanel */
 }
 
-.ag-bootstrap.ag-hover .ag-row-hover {
-  /*background-color: #f5f5f5;*/
+.ag-bootstrap.ag-hover .ag-row:hover {
   background-color: #f5f5f5;
   cursor: pointer;
 }
 
 .ag-bootstrap.ag-striped .ag-row-odd {
-  /*background-color: #f5f5f5;*/
   background-color: #f6f6f6;
+}
+
+.ag-bootstrap .ag-cell {
+  padding: 8px
 }
 
 .ag-bootstrap img {
@@ -26,7 +28,7 @@
   border: none;
 }
 .ag-bootstrap .ag-cell-not-inline-editing {
-  padding: 8px;
+  padding: 4px;
 }
 .ag-bootstrap .ag-cell-range-selected-1:not(.ag-cell-focus) {
   background-color: rgba(120,120,120,0.4);
