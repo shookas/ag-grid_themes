@@ -1,5 +1,6 @@
 # ag-grid_themes
 css themes for ag-grid
+works well with ag-grid 3.1.2 and 7.1
 
 ## theme-bootstrap
 `class="ag-bootstrap"` - standard bootstrap table <br>
