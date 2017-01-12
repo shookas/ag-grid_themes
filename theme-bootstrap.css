@@ -17,7 +17,12 @@
 }
 
 .ag-bootstrap .ag-cell {
-  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.ag-bootstrap .ag-header-row {
+  background-color: #fff;
 }
 
 .ag-bootstrap img {
@@ -166,6 +171,11 @@
 
 .ag-bootstrap .ag-header-cell {
   border-bottom: 2px solid #ddd;
+  position: relative;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .ag-bootstrap .ag-ltr .ag-header-cell {
